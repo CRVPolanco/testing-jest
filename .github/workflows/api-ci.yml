@@ -23,7 +23,7 @@ jobs:
           cache-dependency-path: ./api/package-lock.json
       - name: Run linter
         shell: bash
-        run: npm run linter
+        run: npm run lint
       - name: install
         shell: bash
         run: npm ci
